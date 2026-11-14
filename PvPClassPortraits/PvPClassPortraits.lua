@@ -1,5 +1,5 @@
 --[[
-  Simple Class Portraits — Forever (PvP-only)
+  PvP Class Portraits — WoW Forever
 
   Successor to Simple Class Portraits. Replaces other players' unit-frame
   portraits with class icons only while you are in world PvP or structured PvP.
@@ -79,8 +79,9 @@ eventFrame:SetScript("OnEvent", function(_, event, unit)
 	RefreshPortraits()
 end)
 
-SLASH_SIMPLECLASSPORTRAITS1 = "/scp"
-SlashCmdList.SIMPLECLASSPORTRAITS = function()
+SLASH_PVPCLASSPORTRAITS1 = "/pcp"
+SLASH_PVPCLASSPORTRAITS2 = "/pvpclassportraits"
+SlashCmdList.PVPCLASSPORTRAITS = function()
 	local active = InPvPContext()
 	local inInstance, instanceType = IsInInstance()
 	print(string.format(
