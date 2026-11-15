@@ -3,6 +3,8 @@
 ## Notes: In PvP (world flag, battlegrounds, arenas), replace other players' portraits with class icons.
 ## Author: Arthur Ariel Sabintsev
 ## Version: 1.0.0
+## Category: Unit Frames
+## IconTexture: Interface\AddOns\PvPClassPortraits\Media\icon
 ## X-Website: https://github.com/ArtSabintsev/PvPClassPortraits
 ## X-License: MIT
 
