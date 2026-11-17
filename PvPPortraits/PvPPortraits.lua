@@ -1,11 +1,9 @@
 --[[
-  PvP Class Portraits — WoW Forever
+  PvP Portraits — WoW Forever
 
   Successor to Simple Class Portraits. Replaces other players' unit-frame
   portraits with class icons only while you are in world PvP or structured PvP.
 ]]
-
-local ADDON_NAME = ...
 
 local CLASS_TEXTURE = "Interface\\TargetingFrame\\UI-Classes-Circles"
 
@@ -78,19 +76,3 @@ eventFrame:SetScript("OnEvent", function(_, event, unit)
 	end
 	RefreshPortraits()
 end)
-
-SLASH_PVPCLASSPORTRAITS1 = "/pcp"
-SLASH_PVPCLASSPORTRAITS2 = "/pvpclassportraits"
-SlashCmdList.PVPCLASSPORTRAITS = function()
-	local active = InPvPContext()
-	local inInstance, instanceType = IsInInstance()
-	print(string.format(
-		"|cff33ff99%s:|r PvP portraits %s (instance=%s/%s, flagged=%s, ffa=%s)",
-		ADDON_NAME,
-		active and "|cff00ff00ACTIVE|r" or "|cffff0000inactive|r",
-		tostring(inInstance),
-		tostring(instanceType),
-		tostring(UnitIsPVP("player")),
-		tostring(UnitIsPVPFreeForAll("player"))
-	))
-end

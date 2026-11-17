@@ -1,11 +1,11 @@
 ## Interface: 16001
-## Title: PvP Class Portraits
+## Title: PvP Portraits
 ## Notes: In PvP (world flag, battlegrounds, arenas), replace other players' portraits with class icons.
 ## Author: Arthur Ariel Sabintsev
 ## Version: 1.0.0
 ## Category: Unit Frames
-## IconTexture: Interface\AddOns\PvPClassPortraits\Media\icon
-## X-Website: https://github.com/ArtSabintsev/PvPClassPortraits
+## IconTexture: Interface\AddOns\PvPPortraits\Media\icon
+## X-Website: https://github.com/ArtSabintsev/PvPPortraits
 ## X-License: MIT
 
-PvPClassPortraits.lua
+PvPPortraits.lua

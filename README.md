@@ -1,4 +1,4 @@
-# PvP Class Portraits
+# PvP Portraits
 
 A WoW: Forever successor to [Simple Class Portraits](https://github.com/ArtSabintsev/Simple-Class-Portraits).
 
@@ -8,10 +8,10 @@ This does **not** toggle Forever’s built-in Options (`Replace Player Frame Por
 
 ## Install
 
-1. Copy the `PvPClassPortraits` folder into your Forever AddOns directory, for example:
-   - `World of Warcraft/_forever_/Interface/AddOns/PvPClassPortraits`
+1. Copy the `PvPPortraits` folder into your Forever AddOns directory, for example:
+   - `World of Warcraft/_forever_/Interface/AddOns/PvPPortraits`
 2. Restart the client or `/reload`.
-3. Enable **PvP Class Portraits** on the AddOns list at character select if needed.
+3. Enable **PvP Portraits** on the AddOns list at character select if needed.
 
 ## Behavior
 
@@ -22,10 +22,6 @@ This does **not** toggle Forever’s built-in Options (`Replace Player Frame Por
 | Otherwise | Default face portraits |
 
 Your own portrait and your pet are never changed.
-
-## Commands
-
-- `/pcp` — print whether PvP class portraits are currently considered active (debug)
 
 ## Requirements
 
